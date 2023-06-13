@@ -1,0 +1,103 @@
+h1{
+    margin: 2%;
+    padding: 2%;
+  }
+
+h2{
+  font-size: large;
+}
+
+p{
+  margin: 1%;
+  padding: 1%;
+}
+
+body {
+    align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgba(72, 135, 149, 0.463);
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.custom-select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.card {
+  width: 30rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 500ms ease-out;
+  display: none;
+}
+.capa {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20rem;
+  background: rgba(6, 9, 10, 0.7);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  border-radius: 2%;
+}
+
+.capa:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.texto-encima {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  color: white;
+}
+
+.centrado {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 5rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20rem;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.card-body{
+  border-radius: 4%;
+  box-shadow: (10px 5px 5px rgba(0, 0, 0, 0.693));
+}
